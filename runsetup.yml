@@ -1,4 +1,5 @@
 ---
 - hosts: slave
+  sudo: yes
   roles:
     - apache
